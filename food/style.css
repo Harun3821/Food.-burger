@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 100%;
+    background-color:#c9c9c9c9;
+}
+ h1{
+    margin-left: 10%;
+    margin-top:2%;
+    border:2px solid #1CAC78;
+    border-style: dotted;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color:#00008B;
+    font-size: 50px;
+    font-family: 'poppines' 'Roboto';
+}
+.stroge{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 25px;
+    border-top:20px solid #000; 
+    border-top-left-radius:60px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.25) 0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16) 0 3px 6px rgba(0,0,0,0.23);
+    transform:translateY(-10px);
+}
+.img1{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-left:10%;
+    display: block;
+    filter: drop-shadow(0,0,0,0,.3);
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Roboto' sans-serif;
+}
+p{
+    text-align: center;
+    color: #999;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    color:#FF8C00;
+}
+li{
+    padding-top: 15px;
+
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+    color: rgba(13,44,23);
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.buy-1{
+    background:#00008B;
+    font-family: 'poppines';
+}
+.buy-1:hover{
+    background: #1CAC78;
+    color: #000;
+}
+.buy-2{
+    background:#E54D96;
+    font-family: 'poppines';
+}
+.buy-2:hover{
+    background: #E6ACD7;
+    color: #000;
+}
+.buy-3{
+    background:#1ac796;
+    font-family: 'poppines';
+}
+.buy-3:hover{
+    background: #E6A7;
+    color: #000;
+}
+.buy-4{
+    background:red;
+    font-family: 'poppines';
+}
+.buy-4:hover{
+    background:#FF543C;
+    color: #000;
+}
+.buy-5{
+    background:#c90;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-5:hover{
+    background:#d45894;
+    color: #ffff;
+}
+.buy-6{
+    background:#c90765;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-6:hover{
+    background:#df6745;
+    color: #ffff;
+}
+.buy-7{
+    background:#c99ff5;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-7:hover{
+    background:#00ff43;
+    color: #ffff;
+}
+.buy-8{
+    background:green;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-8:hover{
+    background:#DA70D6;
+    color: #ffff;
+}
+.buy-9{
+    background:#1F618D;
+    font-family: 'poppines';
+    color: #fff;
+}
+.buy-9:hover{
+    background:#DA76;
+    color: #000;
+}
+.buy-10{
+    background: #e67894;
+    font-family: 'poppines';
+    color: #fff;
+}
+.buy-10:hover{
+    background:#D68910;
+    color: #000;
+}
+.buy-11{
+    background:#273746;
+    font-family: 'poppines';
+    color: #fff;
+}
+.buy-11:hover{
+    background:#6E2C00;
+    color: #000;
+}
+.buy-12{
+    background:#A04000;
+    font-family: 'poppines';
+    color: #fff;
+}
+.buy-12:hover{
+    background:#6C0;
+    color: #000;
+}
+.buy-13{
+    background:#229954;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-13:hover{
+    background:#E74C3C ;
+    color: #fff;
+}
+.buy-14{
+    background:#F1C40F;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-14:hover{
+    background:#2E86C1 ;
+    color: #fff;
+}
+.buy-15{
+    background:#E74C3C;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-15:hover{
+    background:#DF0087;
+    color: #fff;
+}
+.buy-16{
+    background:#008080;
+    font-family: 'poppines';
+    color: #000;
+}
+.buy-16:hover{
+    background:#FF1493;
+    color: #fff;
+}
+.card{
+    width: 100%;
+    height: 70px;
+    background:#fd5c63;
+    border-top-style: dotted;
+}
+h2{
+    margin-left: 8%;
+    margin-top:1%;
+    color: #000;
+    font-size: 50px;
+}
+.contents{
+    position:absolute;
+    margin-left:79%;
+    margin-top:148%;
+    color:#ffff;
+    background-color:orange;
+    padding: 10px 15px;
+    top:5%;
+    border-radius:25px;
+    text-decoration: none;
+    font-size:18px;
+    font-family:'poppines' serif;
+}
+.contents:hover{
+    color: #000;
+    background: #F1C40F;
+}
